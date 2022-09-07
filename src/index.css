@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply bg-gradient-to-br from-slate-800 to-green text-white;
+  }
+}
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  height: 3px;
+  width: 4px;
+  background: #555;
+}
+::-webkit-scrollbar-thumb {
+  background: #6495ed;
+}

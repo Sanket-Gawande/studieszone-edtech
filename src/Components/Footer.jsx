@@ -6,7 +6,7 @@ const Footer = () => {
       <div className='w-[90%] flex flex-col md:flex-row mx-auto'>
         {/* about section */}
         <section className='w-[50%]'>
-          <img src="/logo.png" alt="logo" className='w-36' />
+          <img src="/logo2.png" alt="logo" className='w-36' />
           <small className='px-2 tracking-[2.5px] text-white'>stay connected</small>
           <div className="about-us px-2 py-4">
 
